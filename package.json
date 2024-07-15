@@ -1,0 +1,20 @@
+{
+  "name": "price-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "cd client && npm install && cd ../server && npm install",
+    "build": "cd server && npx tsc",
+    "server": "cd server && nodemon dist/server.js",
+    "client": "cd client && npm start"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "real-time",
+    "price-tracking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "real time stockprice tracker that can be continously update without reload"
+}

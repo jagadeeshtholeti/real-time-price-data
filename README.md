@@ -52,7 +52,7 @@ Create a `config.env` file in the root directory and add the following environme
       MONGODB_URI=<your-mongoDB-connectionString>
 
   Replace `<your-api-key>` with your API key for the selected API service.
-  Replace '<your-mongoDB-connectionString>' with you mongoDB connection string for mongo db server connection
+  Replace `<your-mongoDB-connectionString>` with you mongoDB connection string for mongo db server connection
 
 ## Run the Application
 -----------------------
